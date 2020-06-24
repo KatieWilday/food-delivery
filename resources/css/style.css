@@ -243,7 +243,7 @@ h3 {
 
 /* ---------- HOW IT WORKS ------- */
 .section-steps {
-  background-color: #f4f4f4;
+  background-color: #EFEFEF;
 }
 
 .steps-box:first-child {
@@ -287,4 +287,12 @@ h3 {
   height: 50px;
   width: auto;
   margin-right: 10px;
+}
+
+
+/* --------- CURRENT CITY SECTION --------- */
+
+.city-photo {
+  float: left;
+  margin: 10px;
 }
