@@ -104,6 +104,8 @@ h3 {
   display: block;
   color: #e67e22;
   margin-bottom: 10px;
+  margin-left: 35%;
+  margin-right: 50%;
 }
 
 /* ---------- HEADER BUTTON STYLING ----------- */
@@ -183,4 +185,28 @@ h3 {
 .main-nav li a:active {
   border-bottom: 2px solid #e67e22;
 
+}
+
+
+/* ------ MEALS ------ */
+
+.meals-showcase {
+  list-style: none;
+  width: 100%;
+}
+
+.meals-showcase li {
+  display: block;
+  float: left; /*side by side*/
+  width: 25%; /*becuase there is 4 elements out of 100 */
+}
+
+.meal-photo {
+  width: 100%;
+  margin: 0;
+}
+
+.meal-photo img {
+  width: 100%;
+  height: auto;
 }
