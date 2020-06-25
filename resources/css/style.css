@@ -292,7 +292,38 @@ h3 {
 
 /* --------- CURRENT CITY SECTION --------- */
 
-.city-photo {
-  float: left;
-  margin: 10px;
+.box img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.city-feature {
+  margin-bottom: 5px;
+}
+
+.city-feature a {
+  text-decoration: none;
+  color: #e67e22;
+  border-bottom: 1px solid #e67e22;
+  padding-bottom: 1px;
+}
+
+.city-feature a:hover {
+  color: #555;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.2s, color 0.2s;
+}
+
+.icon-small {
+  display: inline-block;
+  width: 30px;
+  text-align: center;
+  color: #e67e22;
+  font-size: 120%;
+  /* Secrets to align text and icons*/
+  line-height: 120%;
+  vertical-align: middle;
+  margin-top: -4px;
+  margin-right: 8px;
 }
