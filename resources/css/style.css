@@ -218,7 +218,7 @@ input[type=submit] {
 
 }
 
-/* ----- STICK NAVIGATION ----- */
+/* ----- STICKY NAVIGATION ----- */
 
   .sticky {
     position: fixed;
@@ -227,9 +227,10 @@ input[type=submit] {
     width: 100%;
     background-color: rgba(255, 255, 255, 0.98);
     box-shadow: 0 2px 2px #e3e3e3;
+    z-index: 9999; /* always on top */
   }
 
-  .main-nav {
+  .sticky .main-nav {
     margin-top: 18px;
   }
 
