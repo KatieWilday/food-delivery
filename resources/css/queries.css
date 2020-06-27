@@ -53,11 +53,11 @@
     margin: 0 0 4% 0;
    }
 
+  .main-nav { display: none; }
   .main-nav {
     float: left;
     margin-top: 35px;
     margin-left: 30px;
-
   }
 
   .main-nav li {
